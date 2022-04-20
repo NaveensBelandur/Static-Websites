@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+body{
+  background-color:lightblue;
+}
+form{
+  padding:8px 80px 20px 80px;
+  border:1px solid red;
+  width:500px;
+  margin-left:300px;
+  background-color: white;
+}
+.container{
+  padding:25px;
+}
+h4{
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  
+}
+h3{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-shadow: white;
+}
+hr{
+  border:1px solid red;
+}
+
+
+input[type='text'],[type='email'],[type='Number']{
+  width:100%;
+  height:30px;
+  margin-bottom: 15px;;
+}
+label{
+  line-height: 30px;
+  font-family: 'Chathura', sans-serif;
+  font-size: 40px;
+  
+}
+select{
+  margin: 15px 0px 15px 0px;
+  width:250px;
+  height:30px;
+}
+textarea{
+  width:100%;
+  height:100px;
+  margin-bottom: 10px;
+}
+input[type='submit']{
+  padding:10px 10px 10px 10px;
+  
+}
+@media screen and (min-width: 320px) and (max-width:480px){
+  form{
+    margin-left:0px;
+    padding:10px 10px 10px 10px;
+    width:350px;
+  }
+  .container{
+    padding:0px;
+  }
+ 
+  }
+  @media screen and (min-width: 768px) and (max-width:991px){
+    form{
+      margin-left: 10px;
+    }
+    }
+    @media screen and (min-width: 991px) and (max-width:1024px){
+      form{
+        margin-left: 150px;
+      }
+      }
+  

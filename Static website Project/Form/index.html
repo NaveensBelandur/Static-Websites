@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Reservation Form</title>
+    <link href='./css/index.css' rel='stylesheet'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+      <div class='container' title='form'>
+        <center><h3>Student Registration</h3></center>
+          <hr>
+          <br/>
+          <div class='form'>
+            <form>
+              <h4>Please Fill The Details </h4>
+              <label for='name' title='FirstName'>FirstName</label>
+              <input type='text' id='name' name='firstname' placeholder="FirstName" title='FirstName'  required/>
+              <br/>
+              <label for='secondName' title='SecondName'>SecondName</label>
+              <input type='text' id='secondName' name='secondname' placeholder="SecondName" title='SecondName'required/>
+              <br/>
+              <label for='email' title='Email'>Email</label>
+              <input type='email' id='email' name='email' placeholder="Email" title='email' required/>
+              <br/>
+              <label for='PhoneNumber' title='PhoneNumber'>PhoneNumber</label>
+              <input type='text' id='PhoneNumber' name='phonenumber' placeholder='PhoneNumber' value="+91" maxlength='14'title='phonenumber' required/>
+              <br/>
+              <label for='Gender' title="gender">Gender :</label>
+              <input type='radio' id='Gender' value="Male" name='Gender' title='Male' checked />Male
+              <input type='radio' id='Gender' value='Female' name='Gender' title='Female'/>Female
+              <input type='radio' id='Gender' value='Not to say' name='Gender' title='Not to Say'/>Not To Say
+              <br/>
+              <label for='Courses' title='Courses'>Courses :</label>
+              <select name='courses' id='Courses'>
+                <option value='SSLC' >SSLC</option>
+                <option value="PUC">PUC</option>
+                <option value="Engrinering">Engrinering</option>
+                <option value="Degree">Degree</option>
+                <option value="MBA">MBA</option>
+                <option value='MCA'>MCA</option>
+                <option value='PHD'>PHD</option>
+              </select>
+              <br/>
+               <label for='Address' title="Address">Address :</label>
+               <textarea type='text' id='Address' row='5' cols="50" title="Your Address" name='address' placeholder="Please Provide your current address"></textarea>
+               <br/>
+               <label for='Cgpa' title="Cgpa">Please Provide Your CGPA</label>
+               <input type='Number'  max="10" id='Cgpa' title='Cgpa' placeholder="Provide Your CGPA" name='CGPA' required/>
+               <br/>
+               <center><input type='submit' value="Submit"/></center> 
+            </form>
+          </div>
+      </div>
+  </body>
+</html>
